@@ -19,6 +19,6 @@ Innan du börjar, se till att du har följande installerat på ditt system:
 2. skapa en mapp (fuzz_test)
 3. skapa en cpp fil: fuzz_example.cpp
 4. skapa en BUILD fil: BUILD
-5. bygg ihopa med bazel: bazel build //:fuzz_example_test
-6. kör fuzz testet: bazel-bin/fuzz_example_test
+5. bygg ihopa med bazel i main mappen: bazel build //main:fuzz_example_test
+6. kör fuzz testet i build_1 mappen: bazel-bin/main/fuzz_example_test
 
